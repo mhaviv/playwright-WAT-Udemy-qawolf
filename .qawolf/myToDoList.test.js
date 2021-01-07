@@ -1,5 +1,12 @@
 // qawolf allows you to record the actions straight to playwright code
 
+/*
+  QAWolf commands:
+    1. npx qawolf create http://todomvc.com/examples/react myToDoList - navigates to url and starts recording test
+    2. npx qawolf test - test the previously recorded test
+    3. npx qawolf edit myToDoList - edit test from specified point in code
+*/
+
 const qawolf = require("qawolf");
 
 let browser;
